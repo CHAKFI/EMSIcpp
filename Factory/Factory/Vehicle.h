@@ -7,7 +7,7 @@ class Vehicle
 {
 	//attributes
 		string type;
-		string brind;
+		string brand;
 		string model;
 		int reg_number;
 		double price;

@@ -4,13 +4,11 @@
 #include<string.h>
 #include "Vehicle.h"
 
-
 using namespace std;
 
 int main()
 {
-	string t;
-    cout << "Hello World!\n";
+	Vehicle obj1("abn","ze","ert", 123, 99.9);
 
 }
 
