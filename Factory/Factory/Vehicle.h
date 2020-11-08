@@ -1,4 +1,6 @@
 #pragma once
+#include <string>
+using namespace std;
 
 
 class Vehicle
@@ -11,6 +13,17 @@ class Vehicle
 		double price;
 
 public : 
+	
+	//initialization Constructor
+	  Vehicle(string, string, string, int, double);
+
+	//Copy Constructor
+	 // Vehicle(const *obj);
+    // Display Method
+	  void Display();
+
+
+
 
 
 };
