@@ -18,13 +18,12 @@ public :
 	  Vehicle(string, string, string, int, double);
 
 	//Copy Constructor
-	 // Vehicle(const &o);
-    
-	 // Display Method
+	
+	//Display Method
 	  void Display();
     
-	  //Fill in the informations Method
-	  void Grab();
+    //Insert Method
+	  void Insert();
 
 
 

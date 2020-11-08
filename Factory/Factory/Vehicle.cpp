@@ -2,6 +2,8 @@
 #include <iostream>
 using namespace std;
 
+
+//initialization Constructor
 Vehicle::Vehicle(string tp, string brd, string md, int id, double prc)
 {
 
@@ -11,27 +13,35 @@ Vehicle::Vehicle(string tp, string brd, string md, int id, double prc)
 	this->reg_number = id;
 	this->price = prc;
 
-	cout << "You have called initialization Constructor : \n";
+	cout << "You have called initialization Constructor : \n\n";
 }
 
+//Copy Constructor
+Vehicle::Vehicle(const Vehicle& o)
+{
+}
+
+
+//Display Method
 void Vehicle::Display()
 {
-	cout << "---------------------------------------------";
-	cout << "|              Technical sheet:             |";
-	cout << "---------------------------------------------";
-	cout << "|  Type : "<< type<<"                       |";
-	cout << "---------------------------------------------";
-	cout << "|  Brand: "<< brand<<"                      |";
-	cout << "---------------------------------------------";
-	cout << "|  Model: "<< model<<"                      |";
-	cout << "---------------------------------------------";
-	cout << "|  Registration number : " << reg_number <<"|";
-	cout << "---------------------------------------------";
-	cout << "|  Price : " << price <<"                   |";
-	cout << "---------------------------------------------";
+	cout << "\t\t---------------------------------------------" << endl;
+	cout << "\t\t|              Technical sheet:              " << endl;
+	cout << "\t\t---------------------------------------------" << endl;
+	cout << "\t\t|  Type : "<< type<<"                        " << endl;
+	cout << "\t\t---------------------------------------------" << endl;
+	cout << "\t\t|  Brand: "<< brand<<"                       " << endl;
+	cout << "\t\t---------------------------------------------" << endl;
+	cout << "\t\t|  Model: "<< model<<"                       " << endl;
+	cout << "\t\t---------------------------------------------" << endl;
+	cout << "\t\t|  Registration number : " << reg_number       << endl;
+	cout << "\t\t---------------------------------------------" << endl;
+	cout << "\t\t|  Price : " << price <<" MAD                " << endl;
+	cout << "\t\t---------------------------------------------" << endl;
 
 }
 
-void Vehicle::Grab()
+//Insert Method
+void Vehicle::Insert()
 {
 }
