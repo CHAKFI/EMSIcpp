@@ -1,10 +1,14 @@
 #pragma once
-#include<string.h>
-
 
 
 class Vehicle
 {
+		string type;
+		string brind;
+		string model;
+		int reg_number;
+		double price;
+
 
 };
 

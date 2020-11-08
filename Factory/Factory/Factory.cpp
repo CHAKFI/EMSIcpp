@@ -1,11 +1,17 @@
 // Factory.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
 //
+#include<iostream>
+#include<string.h>
+#include "Vehicle.h"
 
-#include <iostream>
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	string t;
+    cout << "Hello World!\n";
+
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
