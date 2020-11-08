@@ -8,7 +8,11 @@ using namespace std;
 
 int main()
 {
-	Vehicle obj1("abn","ze","ert", 123, 99.9);
+	// static 
+	Vehicle obj("4x4","BMW","X5", 635846, 412.999);
+
+
+	
 
 }
 
