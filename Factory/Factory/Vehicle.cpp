@@ -73,3 +73,8 @@ void Vehicle::Insert()
 	cout << "Please insert the price : ";
 
 }
+
+Vehicle::~Vehicle()
+{
+	delete this;
+}

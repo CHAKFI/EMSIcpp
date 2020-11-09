@@ -29,7 +29,8 @@ public :
     //Insert Method
 	  void Insert();
 
-
+    //Destructor
+	  ~Vehicle();
 
 
 };
