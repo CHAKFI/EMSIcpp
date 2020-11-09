@@ -20,12 +20,28 @@ int main()
 	Vehicle obj1("4x4","BMW","X5", 635846, 412.999);
 	obj1.Display();
 
+	// dynamic creation
+	Vehicle *obj2;
+	obj2 = new Vehicle("Sport", "BMW", "m5 turbo", 32006, 330.999);
+
 	// Using Copy Constructor
-	Vehicle obj2 = obj1;
-	obj2.Display();
 
+	// Vehicle obj2 = obj1; 
+	// OR Vehicle obj2; obj2 = obj1;
+	Vehicle obj3(obj1); 
+	obj3.Display();
+
+	// Insert Data
+
+	 /* 
+	    vehicle obj3;
+	    obj3.Insert();
+	    obj3.Display();
+
+	  */
 	
-
+	 // Distructor
+	 obj2->~Vehicle;
 
 }
 

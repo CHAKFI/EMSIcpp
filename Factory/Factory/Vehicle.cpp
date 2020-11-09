@@ -11,7 +11,7 @@ Vehicle::Vehicle()
 	this->reg_number = 0;
 	this->price = 0;
 
-	cout << "You have called Default Constructor : \n\n";
+	cout << "\n\n You have called Default Constructor : \n\n";
 }
 
 //Initialization Constructor
@@ -24,7 +24,7 @@ Vehicle::Vehicle(string tp, string brd, string md, int id, double prc)
 	this->reg_number = id;
 	this->price = prc;
 
-	cout << "You have called Initialization Constructor : \n\n";
+	cout << "\n\n You have called Initialization Constructor : \n\n";
 }
 
 //Copy Constructor
@@ -36,7 +36,7 @@ Vehicle::Vehicle(const Vehicle& o)
 	this->reg_number = o.reg_number;
 	this->price = o.price;
 
-	cout << "You have called Copy Constructor : \n\n";
+	cout << "\n\n You have called Copy Constructor : \n\n";
 }
 
 
@@ -62,4 +62,14 @@ void Vehicle::Display()
 //Insert Method
 void Vehicle::Insert()
 {
+	cout << "\n\n Please insert the type : ";
+
+	cout << "Please insert the brand : ";
+
+	cout << " Please insert the model : ";
+
+	cout << "Please insert the Registration number : ";
+
+	cout << "Please insert the price : ";
+
 }
