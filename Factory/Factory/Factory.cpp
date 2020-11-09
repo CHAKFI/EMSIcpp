@@ -41,7 +41,7 @@ int main()
 	  */
 	
 	 // Distructor
-	 obj2->~Vehicle;
+	 obj2->~Vehicle();
 
 }
 

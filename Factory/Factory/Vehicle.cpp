@@ -75,6 +75,8 @@ void Vehicle::Insert()
 }
 
 Vehicle::~Vehicle()
-{
+{   
+	cout << "\n\n You have called Distructor : \n\n";
 	delete this;
+	
 }
