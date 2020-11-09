@@ -12,14 +12,17 @@ using namespace std;
 
 int main()
 {
-	// Default Constructor
+	// Using Default Constructor
 	Vehicle obj;
+	obj.Display();
 
 	// static creation of object using Initialization Constructor
 	Vehicle obj1("4x4","BMW","X5", 635846, 412.999);
+	obj1.Display();
 
-	// Displaying infos
-	obj.Display();
+	// Using Copy Constructor
+	Vehicle obj2 = obj1;
+	obj2.Display();
 
 	
 
