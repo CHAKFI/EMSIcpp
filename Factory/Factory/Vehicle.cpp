@@ -2,8 +2,19 @@
 #include <iostream>
 using namespace std;
 
+//Default Constructor
+Vehicle::Vehicle()
+{
+	this->type = "-";
+	this->brand = "-";
+	this->model = "-";
+	this->reg_number = 0;
+	this->price = 0;
 
-//initialization Constructor
+	cout << "You have called Default Constructor : \n\n";
+}
+
+//Initialization Constructor
 Vehicle::Vehicle(string tp, string brd, string md, int id, double prc)
 {
 
@@ -13,12 +24,19 @@ Vehicle::Vehicle(string tp, string brd, string md, int id, double prc)
 	this->reg_number = id;
 	this->price = prc;
 
-	cout << "You have called initialization Constructor : \n\n";
+	cout << "You have called Initialization Constructor : \n\n";
 }
 
 //Copy Constructor
 Vehicle::Vehicle(const Vehicle& o)
 {
+	this->type = o.type;
+	this->brand = o.brand;
+	this->model = o.model;
+	this->reg_number = o.reg_number;
+	this->price = o.price;
+
+	cout << "You have called Copy Constructor : \n\n";
 }
 
 

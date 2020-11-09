@@ -14,11 +14,15 @@ class Vehicle
 
 public : 
 	
-	//initialization Constructor
+	//Default Constructor
+	  Vehicle();
+
+	//Initialization Constructor
 	  Vehicle(string, string, string, int, double);
 
 	//Copy Constructor
-	
+	  Vehicle(const Vehicle &o);
+
 	//Display Method
 	  void Display();
     

@@ -12,15 +12,21 @@ using namespace std;
 
 int main()
 {
-	// static creation of objectS
-	Vehicle obj("4x4","BMW","X5", 635846, 412.999);
+	// Default Constructor
+	Vehicle obj;
 
-	//Displaying infos
+	// static creation of object using Initialization Constructor
+	Vehicle obj1("4x4","BMW","X5", 635846, 412.999);
+
+	// Displaying infos
 	obj.Display();
 
 	
 
+
 }
+
+
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
 // Déboguer le programme : F5 ou menu Déboguer > Démarrer le débogage
