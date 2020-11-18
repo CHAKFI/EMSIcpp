@@ -12,14 +12,11 @@ Math_complex::Math_complex(double r, double i)
 
 Math_complex::Math_complex(const Math_complex& obj)
 {
+	this->re = obj.re;
+	this->im = obj.im;
 }
 
 void Math_complex::Display()
 {
-	
-
-
-
-
-
+	cout << re << " + " << im << "i";
 }
