@@ -7,7 +7,8 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	Math_complex nbr_complexe(5, 2);
+
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage

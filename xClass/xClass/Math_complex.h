@@ -11,7 +11,6 @@ class Math_complex
 
  public:
 
-	   Math_complex();
 	   Math_complex(double, double);
 	   Math_complex(const Math_complex &obj);
 	   void Display();
