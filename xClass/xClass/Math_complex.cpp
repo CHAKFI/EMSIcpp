@@ -3,7 +3,7 @@
 
 Math_complex::Math_complex(double r, double i)
 {
-	cout << "Constructeur d'initialisation /n";
+	cout << "Constructeur d'initialisation: \n";
 	this->re = r;
 	this->im = i;
 
@@ -18,5 +18,5 @@ Math_complex::Math_complex(const Math_complex& obj)
 
 void Math_complex::Display()
 {
-	cout << re << " + " << im << "i";
+	cout << re << " + " << im << "i \n";
 }
